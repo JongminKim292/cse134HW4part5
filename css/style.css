@@ -1,0 +1,149 @@
+/* common */
+@font-face {
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/changaone/v18/xfu00W3wXn3QLUJXhzq42AHiuZXYO68.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* thai */
+  @font-face {
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/itim/v10/0nknC9ziJOYe8BdAkOzaZwTSoQ.woff2) format('woff2');
+    unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/itim/v10/0nknC9ziJOYe8AxAkOzaZwTSoQ.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/itim/v10/0nknC9ziJOYe8A1AkOzaZwTSoQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/itim/v10/0nknC9ziJOYe8ANAkOzaZwQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+.boxItem{
+    background-color: ghostwhite;
+    padding-bottom:3%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:3%;
+    border-radius: 2rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    height: auto;
+    white-space: normal;
+    word-break: break-all;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+.boxItem *{
+    margin:5px;
+    padding:0px;
+}
+.boxItem:hover{
+    transform: scale(1.02);
+    transition-duration: 0.1s;
+}
+
+#tbs{
+    font-family:'itim';
+    font-size: 3rem;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+
+
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  a:link{text-decoration: none; color: #333333}
+  a:visited{text-decoration: none; color:#333333}
+  a:hover{
+    text-decoration: none; color: gray;
+    }
+  a:active{text-decoration: none; color:gray;}
+
+
+/* for tablet or small laptop */
+h1{
+    font:bolder 5vh 'itim', sans-serif;
+}
+h2{
+    font:lighter 2.5vh 'itim', sans-serif;
+}
+.sectionTitle{
+    font-family:'Changa One', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.webIcon{
+    display: inline;
+    font-size: 8vh;
+}
+.boxTitle{
+    font-size: 2vh;
+    text-align: center;
+}
+.iconAndBrief{
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr
+}
+
+h3{font:lighter 1rem 'itim', cursive; font-weight:bold;}
+h4{font:lighter 0.5rem 'itim', cursive; font-weight:bold;}
+li {list-style-type: none;}
+#menu{font:lighter 2rem 'changa one', sans-serif;}
+.content{
+    font-family:'itim', sans-serif;
+    font-size: 1rem;
+}
+#ftrcontent{
+    color : gray;
+    text-align: center;
+}
+
+nav {
+    position : fixed;
+    top : 0;
+    width : 100%;
+    background-color: white;
+}
+body{
+    padding-top: 3rem;
+}
